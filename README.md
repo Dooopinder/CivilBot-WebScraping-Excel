@@ -35,6 +35,7 @@ To run the main script, use the following command:
 
 -----Copy code-----
 python workslaves.py
+
 This will start the bot, which will begin scraping data and creating Excel files.
 
 # Contributing
