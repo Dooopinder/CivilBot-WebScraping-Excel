@@ -20,11 +20,11 @@ This will create a new Conda environment, activate it, and then use pip to insta
 # *REMINDER*
 However, there are a few things to keep in mind:
 
-# Package Conflicts: If there are packages in your requirements.txt file that conflict with each other or with other packages already installed in the environment, you may encounter issues. This is true for any package management system, not just Conda.
+1.Package Conflicts: If there are packages in your requirements.txt file that conflict with each other or with other packages already installed in the environment, you may encounter issues. This is true for any package management system, not just Conda.
 
-# Mixed Use of Conda and Pip: While Conda and Pip can be used together, it's generally recommended to use Conda when you're in a Conda environment if possible, as Conda is aware of and can manage dependencies between all the packages in the environment. Pip is not aware of Conda's packages. This can potentially lead to inconsistencies or conflicts.
+2.Mixed Use of Conda and Pip: While Conda and Pip can be used together, it's generally recommended to use Conda when you're in a Conda environment if possible, as Conda is aware of and can manage dependencies between all the packages in the environment. Pip is not aware of Conda's packages. This can potentially lead to inconsistencies or conflicts.
 
-#Isolation of Environments: One of the main benefits of using environments (like with Conda) is that they're isolated. If something goes wrong in one environment, it shouldn't affect your other environments. You can simply delete the problematic environment and start again.
+3.Isolation of Environments: One of the main benefits of using environments (like with Conda) is that they're isolated. If something goes wrong in one environment, it shouldn't affect your other environments. You can simply delete the problematic environment and start again.
 
 If you're concerned about potential issues, you might consider exporting your Conda environment's packages to a environment.yml file (using conda env export > environment.yml), which can be used to recreate the environment later if needed.
 
