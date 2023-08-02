@@ -33,8 +33,8 @@ If you're concerned about potential issues, you might consider exporting your Co
 To run the main script, use the following command:
 
 
-# Copy code
-python main.py
+-----Copy code-----
+python workslaves.py
 This will start the bot, which will begin scraping data and creating Excel files.
 
 # Contributing
