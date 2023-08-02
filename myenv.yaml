@@ -1,0 +1,8 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.9.12
+  - beautifulsoup4==4.11.1
+  - pandas==1.4.2
+  - selenium==3.141.0
